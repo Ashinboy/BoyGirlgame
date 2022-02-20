@@ -13,10 +13,12 @@
 		C8E5EEBF27C202A100B6A9E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E5EEBD27C202A100B6A9E7 /* Main.storyboard */; };
 		C8E5EEC127C202A200B6A9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E5EEC027C202A200B6A9E7 /* Assets.xcassets */; };
 		C8E5EEC427C202A200B6A9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E5EEC227C202A200B6A9E7 /* LaunchScreen.storyboard */; };
+		C8E5EECC27C203EF00B6A9E7 /* GameRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5EECB27C203EF00B6A9E7 /* GameRule.swift */; };
+		C8E5EECE27C2043800B6A9E7 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5EECD27C2043800B6A9E7 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8E5EEB427C202A100B6A9E7 /* RPSgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPSgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E5EEB427C202A100B6A9E7 /* BoyGirlgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoyGirlgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E5EEB727C202A100B6A9E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8E5EEB927C202A100B6A9E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C8E5EEBB27C202A100B6A9E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		C8E5EEC027C202A200B6A9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8E5EEC327C202A200B6A9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8E5EEC527C202A200B6A9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E5EECB27C203EF00B6A9E7 /* GameRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRule.swift; sourceTree = "<group>"; };
+		C8E5EECD27C2043800B6A9E7 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		C8E5EEAB27C202A100B6A9E7 = {
 			isa = PBXGroup;
 			children = (
-				C8E5EEB627C202A100B6A9E7 /* RPSgame */,
+				C8E5EEB627C202A100B6A9E7 /* BoyGIrlgame */,
 				C8E5EEB527C202A100B6A9E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		C8E5EEB527C202A100B6A9E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8E5EEB427C202A100B6A9E7 /* RPSgame.app */,
+				C8E5EEB427C202A100B6A9E7 /* BoyGirlgame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8E5EEB627C202A100B6A9E7 /* RPSgame */ = {
+		C8E5EEB627C202A100B6A9E7 /* BoyGIrlgame */ = {
 			isa = PBXGroup;
 			children = (
 				C8E5EEB727C202A100B6A9E7 /* AppDelegate.swift */,
 				C8E5EEB927C202A100B6A9E7 /* SceneDelegate.swift */,
 				C8E5EEBB27C202A100B6A9E7 /* ViewController.swift */,
 				C8E5EEBD27C202A100B6A9E7 /* Main.storyboard */,
+				C8E5EECB27C203EF00B6A9E7 /* GameRule.swift */,
+				C8E5EECD27C2043800B6A9E7 /* GameState.swift */,
 				C8E5EEC027C202A200B6A9E7 /* Assets.xcassets */,
 				C8E5EEC227C202A200B6A9E7 /* LaunchScreen.storyboard */,
 				C8E5EEC527C202A200B6A9E7 /* Info.plist */,
 			);
-			path = RPSgame;
+			path = BoyGIrlgame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8E5EEB327C202A100B6A9E7 /* RPSgame */ = {
+		C8E5EEB327C202A100B6A9E7 /* BoyGirlgame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8E5EEC827C202A200B6A9E7 /* Build configuration list for PBXNativeTarget "RPSgame" */;
+			buildConfigurationList = C8E5EEC827C202A200B6A9E7 /* Build configuration list for PBXNativeTarget "BoyGirlgame" */;
 			buildPhases = (
 				C8E5EEB027C202A100B6A9E7 /* Sources */,
 				C8E5EEB127C202A100B6A9E7 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = RPSgame;
+			name = BoyGirlgame;
 			productName = RPSgame;
-			productReference = C8E5EEB427C202A100B6A9E7 /* RPSgame.app */;
+			productReference = C8E5EEB427C202A100B6A9E7 /* BoyGirlgame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C8E5EEAF27C202A100B6A9E7 /* Build configuration list for PBXProject "RPSgame" */;
+			buildConfigurationList = C8E5EEAF27C202A100B6A9E7 /* Build configuration list for PBXProject "BoyGirlgame" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8E5EEB327C202A100B6A9E7 /* RPSgame */,
+				C8E5EEB327C202A100B6A9E7 /* BoyGirlgame */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +146,9 @@
 			files = (
 				C8E5EEBC27C202A100B6A9E7 /* ViewController.swift in Sources */,
 				C8E5EEB827C202A100B6A9E7 /* AppDelegate.swift in Sources */,
+				C8E5EECE27C2043800B6A9E7 /* GameState.swift in Sources */,
 				C8E5EEBA27C202A100B6A9E7 /* SceneDelegate.swift in Sources */,
+				C8E5EECC27C203EF00B6A9E7 /* GameRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +299,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UUXB5LD3ZL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RPSgame/Info.plist;
+				INFOPLIST_FILE = BoyGirlgame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UUXB5LD3ZL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RPSgame/Info.plist;
+				INFOPLIST_FILE = BoyGirlgame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8E5EEAF27C202A100B6A9E7 /* Build configuration list for PBXProject "RPSgame" */ = {
+		C8E5EEAF27C202A100B6A9E7 /* Build configuration list for PBXProject "BoyGirlgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8E5EEC627C202A200B6A9E7 /* Debug */,
@@ -350,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8E5EEC827C202A200B6A9E7 /* Build configuration list for PBXNativeTarget "RPSgame" */ = {
+		C8E5EEC827C202A200B6A9E7 /* Build configuration list for PBXNativeTarget "BoyGirlgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8E5EEC927C202A200B6A9E7 /* Debug */,
